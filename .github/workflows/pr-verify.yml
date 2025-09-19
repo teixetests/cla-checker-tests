@@ -10,19 +10,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  repo-linter:
-    name: Repo Linter
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-        with:
-          fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.sha }}
-
-      - name: 'Run Repolinter'
-        uses: newrelic/repolinter-action@3f4448f855c351e9695b24524a4111c7847b84cb # v1.7.0
-
   reuse-compliance:
     name: REUSE Compliance
     runs-on: ubuntu-latest
