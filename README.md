@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 <!-- Add relevant badges here -->
 ![GitHub License](https://img.shields.io/github/license/InditexTech/base-archetype)
 
-# base-archetype prueba firmado GPG
+# base-archetype prueba firmado
 
 Short description of what this project does and why it exists.
 
